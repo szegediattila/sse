@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>SSE Eloadas</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>SSE Eloadas</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<div class="container">
-		<h1>Chat client</h1>
+    <div class="container">
+        <h1>Chat client</h1>
 
-		<div class="row">
-			<section class="col-md-offset-2 col-md-8">
-				<div class="form-group">
-					<div id="messages" class="messages-list container-fluid"></div>
-				</div>
+        <div class="row">
+            <section class="col-md-offset-2 col-md-8">
+                <div class="form-group">
+                    <div id="messages" class="messages-list container-fluid"></div>
+                </div>
 
-				<form id="chat-form" class="form-inline" method="post" action="/chat">
-					<div class="form-group">
-						<input type="text" class="form-control" name="message" required placeholder="say something...">
-					</div>
-					<button class="btn btn-primary">send</button>
-				</form>
-			</section>
-		</div>
-	</div>
+                <form id="chat-form" class="form-inline" method="post" action="/chat">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="message" required placeholder="say something...">
+                    </div>
+                    <button class="btn btn-primary">send</button>
+                </form>
+            </section>
+        </div>
+    </div>
 
-	<script src="js/jquery/jquery-1.11.3.min.js"></script>
-	<script src="js/client.js"></script>
+    <script src="js/jquery/jquery-1.11.3.min.js"></script>
+    <script src="js/client.js"></script>
 </body>
 </html>
